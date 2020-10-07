@@ -26,3 +26,54 @@ nav {
   .topnav.responsive a.trigram {visibility: hidden; position: absolute; right: 3%; top: 2%;}
   .topnav.responsive a.trigram::after {content:'\000D7'; visibility:visible; text-indent: -.5em;}
 }
+
+.slideshow {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+.slideshow img {
+  width: 100%;
+}
+.slideshow-wrap {
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  color: #DDD;
+}
+.next {
+  right: 0;
+}
+.prev:hover, .next:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.dot-wrap {
+  text-align: center;
+}
+.dot {
+  width: 10%;
+  opacity: .5;
+  display: inline-block;
+}
+.dot img {
+  width: 100%;
+}
+.dot.active {
+  opacity: 1;
+}
+
+.captiontext {
+  background: rgba(0,0,0,0.4);
+  color: white;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
