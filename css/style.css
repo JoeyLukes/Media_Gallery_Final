@@ -111,7 +111,18 @@ nav {
   background-position: center center;
 }
 
-.one .thumb {background-image: url(https://wallpaperaccess.com/full/1895831.jpg)}
+.one .thumb {background-image: url(../img/Jordan1.jpg)}
+.two .thumb {background-image: url(../img/Jordan2.jpg)}
+.three .thumb {background-image: url(../img/Jordan3.jpg)}
+.four .thumb {background-image: url(../img/Jordan4.jpg)}
+.five .thumb {background-image: url(../img/Jordan5.jpg)}
+.six .thumb {background-image: url(../img/Jordan6.jpg)}
+.seven .thumb {background-image: url(../img/Jordan7.jpg)}
+.eight .thumb {background-image: url(../img/Jordan8.jpg)}
+.nine .thumb {background-image: url(../img/Jordan9.jpg)}
+.ten .thumb {background-image: url(../img/Jordan10.jpg)}
+.eleven .thumb {background-image: url(../img/Jordan11.jpg)}
+.twelve .thumb {background-image: url(../img/Jordan12.jpg)}
 
 .card-content {
   padding: 0 .5em .7em .5em;
